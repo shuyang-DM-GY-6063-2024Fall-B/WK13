@@ -6,6 +6,7 @@ let cBackgroundColor;
 
 function receiveSerial() {
   let line = mSerial.readUntil("\n");
+  
   print(line);
 
   // TODO: assign to color
